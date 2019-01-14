@@ -11,10 +11,14 @@ import static org.junit.jupiter.api.Assertions.*;
 //@RunWith(SpringRunner.class)
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
-public class BankonetApplicationTests {
+class BankonetApplicationTests {
 
     @Test
-    public void contextLoads() {
+    void contextLoads() {
+    }
+
+    @Test
+    void shoul_be_true() {
         assertTrue(true);
     }
 
