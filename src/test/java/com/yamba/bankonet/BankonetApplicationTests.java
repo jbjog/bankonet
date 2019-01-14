@@ -22,4 +22,8 @@ public class BankonetApplicationTests {
         assertTrue(true);
     }
 
+    @Test
+    public void shouldFail(){
+        fail();
+    }
 }
