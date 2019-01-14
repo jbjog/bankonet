@@ -18,12 +18,12 @@ public class Mouvement {
     @ManyToOne
     @JoinColumn(name = "numero_compte_debite")
     @JsonIgnoreProperties({"debits","credits","client"})
-    private Compte compteDebite
+    private Compte compteDebite;
 
     @ManyToOne
     @JoinColumn(name = "numero_compte_credite")
     @JsonIgnoreProperties({"debits","credits","client"})
-    private Compte compteCredite
+    private Compte compteCredite;
 
 
     public int getId() {
