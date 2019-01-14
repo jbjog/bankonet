@@ -21,9 +21,4 @@ public class BankonetApplicationTests {
     public void shouldBeTrue(){
         assertTrue(true);
     }
-
-    @Test
-    public void shouldFail(){
-        fail();
-    }
 }

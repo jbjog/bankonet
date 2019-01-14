@@ -19,6 +19,6 @@ class HWControllerTest {
     @Test
     void shouldSayHello() {
         HWController hw = new HWController();
-        assertEquals("Hello JB",hw.sayHello());
+        assertEquals("Bienvenue sur Bankonet ",hw.sayHello());
     }
 }
