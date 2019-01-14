@@ -17,9 +17,5 @@ class BankonetApplicationTests {
     void contextLoads() {
     }
 
-    @Test
-    void shoul_be_true() {
-        assertTrue(true);
-    }
 
 }
