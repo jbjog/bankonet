@@ -5,17 +5,21 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import static org.junit.jupiter.api.Assertions.*;
 
+import static org.junit.jupiter.api.Assertions.*;
 
 //@RunWith(SpringRunner.class)
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
-class BankonetApplicationTests {
+public class BankonetApplicationTests {
 
     @Test
-    void contextLoads() {
+    public void contextLoads() {
     }
 
+    @Test
+    public void shouldBeTrue(){
+        assertTrue(true);
+    }
 
 }
